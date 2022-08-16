@@ -27,18 +27,26 @@
 
 <script type="text/javascript">
 
-function albumTemplate(album){
-	return `
-		<div class="album">
-			<b>Number</b>: ${album.Number}<br/>
-			<b>Year</b>: ${album.Year}<br/>
-			<b>Album</b>: ${album.Album}<br/>
-			<b>Artist</b>: ${album.Artist}<br/>
-			<b>Genre</b>: ${album.Genre}<br/>
-			<b>Subgenre</b>: ${album.Subgenre}<br/>
-			<div class="pic"><img src="thumbnails/${album.Image}"/></div>
+function itemTemplate(item){
+
+	let data = `
+		<div class="item">
+			<b>Number</b>: ${item.Number}<br/>
+	`;
+
+	if(item.Song != null)
+		data +=	`<b>Song</b>: ${item.Song}<br/>`;
+
+	data += `
+			<b>Year</b>: ${item.Year}<br/>
+			<b>Album</b>: ${item.Album}<br/>
+			<b>Artist</b>: ${item.Artist}<br/>
+			<b>Genre</b>: ${item.Genre}<br/>
+			<div class="pic"><img src="thumbnails/${item.Image}"/></div>
 		</div> 
-  `; //put HTML inside of the backticks, and injects the data with the string
+	`; //put HTML inside of the backticks, and injects the data with the string
+
+	return data;
 
 }
 
@@ -56,8 +64,8 @@ $(document).ready(function() {
 		request.done(function( data ) {
 			console.log(data);
 
-  			//place data.title on page 
-  			$("#title").html(data.title); //allows us to toggle between Bond Films by Year and the other one
+			//place data.title on page 
+			$("#title").html(data.title); //allows us to toggle between Bond Films by Year and the other one
 
 			//clear previous output
 			$("#output").html("");
@@ -68,10 +76,10 @@ $(document).ready(function() {
 			//create variable for data to be passed into the bondTemplate for each item
 			//jQuery to pass this template data into id of films in the HTML 
 			$.each(data.data, function(i, item) {
-				let myData = albumTemplate(item);
+				let myData = itemTemplate(item);
 				$("<div></div>").html(myData).appendTo("#output");
 			}); 
-		
+
 			$("#output").html(myData); //onclick data should show up on HTML page
 
 		});
@@ -86,9 +94,9 @@ $(document).ready(function() {
 </script>
 </head>
 	<body>
-	<h1>RuPaul's Drag Race Web Service</h1>
+	<h1>Top Music Lists Web Service</h1>
 		<a href="album" class="category">Top Albums</a><br />
-		<a href="season" class="category">RuPaul's Drag Race by Season</a>
+		<a href="song" class="category">Top AC/DC songs</a>
 
 		<h3 id="title">Title Will Go Here</h3>
 		<div id="output">Results go here</div>
