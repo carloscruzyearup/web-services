@@ -100,6 +100,6 @@
 		<a href="song" class="category">Top AC/DC songs</a>
 
 		<h3 id="title">Click one of the links above to view the ranked lists!</h3>
-		<div id="output"><em style="color: gray;">Results</em></div>
+		<div id="output" style="text-align: center;"><em style="color: gray;">Results</em></div>
 	</body>
 </html>
