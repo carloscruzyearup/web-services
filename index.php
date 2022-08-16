@@ -10,12 +10,7 @@
 	margin-bottom: 5px;
 	display: flex;
 	flex-flow: row wrap;
-  }
-
-  .pic{
-	position: relative;
-	right: 10px;
-	top: 10px;
+	justify-content: space-around;
   }
 
   .pic img{ /*ensures thumbnail width is at 50px*/
