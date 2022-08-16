@@ -1,0 +1,105 @@
+{
+	"title": "Top Rock Albums",
+
+	"data": [
+		{
+			"Number": 1,
+			"Year": 1967,
+			"Album": "Sgt. Pepper's Lonely Hearts Club Band",
+			"Artist": "The Beatles",
+			"Genre": "Rock",
+			"Subgenre": "Rock & Roll, Psychedelic Rock",
+			"Image": "sgtpepper.jpg"
+		},
+		{
+			"Number": 2,
+			"Year": 1966,
+			"Album": "Pet Sounds",
+			"Artist": "The Beach Boys",
+			"Genre": "Rock",
+			"Subgenre": "Pop Rock, Psychedelic Rock",
+			"Image": "petsounds.jpg"
+
+		},
+		{
+			"Number": 3,
+			"Year": 1966,
+			"Album": "Revolver",
+			"Artist": "The Beatles",
+			"Genre": "Rock",
+			"Subgenre": "Psychedelic Rock, Pop Rock",
+			"Image": "revolver.jpg"
+
+		},
+		{
+			"Number": 4,
+			"Year": 1965,
+			"Album": "Highway 61 Revisited",
+			"Artist": "Bob Dylan",
+			"Genre": "Rock",
+			"Subgenre": "Folk Rock, Blues Rock",
+			"Image": "hwy61revisited.jpg"
+
+		},
+		{
+			"Number": 5,
+			"Year": 1965,
+			"Album": "Rubber Soul",
+			"Artist": "The Beatles",
+			"Genre": "Rock, Pop",
+			"Subgenre": "Pop Rock",
+			"Image": "rubbersoul.jpg"
+
+		},
+		{
+			"Number": 6,
+			"Year": 1971,
+			"Album": "What's Going On",
+			"Artist": "Marvin Gaye",
+			"Genre": "Funk / Soul",
+			"Subgenre": "Soul",
+			"Image": "whatsgoingon.jpg"
+
+		},
+		{
+			"Number": 7,
+			"Year": 1972,
+			"Album": "Exile on Main St.",
+			"Artist": "The Rolling Stones",
+			"Genre": "Rock",
+			"Subgenre": "Blues Rock, Rock & Roll, Classic Rock",
+			"Image": "exileonmainst.jpg"
+
+		},
+		{
+			"Number": 8,
+			"Year": 1979,
+			"Album": "London Calling",
+			"Artist": "The Clash",
+			"Genre": "Rock",
+			"Subgenre": "Punk, New Wave",
+			"Image": "londoncalling.jpg"
+
+		},
+		{
+			"Number": 9,
+			"Year": 1966,
+			"Album": "Blonde on Blonde",
+			"Artist": "Bob Dylan",
+			"Genre": "Rock, Blues",
+			"Subgenre": "Folk Rock, Rhythm & Blues",
+			"Image": "blondeonblonde.jpg"
+
+		},
+		{
+			"Number": 10,
+			"Year": 1968,
+			"Album": "The Beatles (\"The White Album\")",
+			"Artist": "The Beatles",
+			"Genre": "Rock",
+			"Subgenre": "Rock & Roll, Pop Rock, Psychedelic Rock, Experimental",
+			"Image": "whitealbum.jpg"
+
+		}
+	]
+}

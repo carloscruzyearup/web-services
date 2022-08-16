@@ -1,0 +1,105 @@
+{
+	"title": "Top AC//DC songs",
+
+	"data": [
+		{
+			"Number": 1,
+			"Song": "Back In Black",
+			"Artist": "AC/DC",
+			"Release Year": 1980,
+			"Album": "Back In Black",
+			"Genre": "Hard Rock",
+			"Image": "backinblack.jpg"
+		},
+		{
+			"Number": 2,
+			"Song": "Thunderstruck",
+			"Artist": "AC/DC",
+			"Release Year": 1990,
+			"Album": "The Razors Edge",
+			"Genre": "Hard Rock",
+			"Image": "razorsedge.jpg"
+
+		},
+		{
+			"Number": 3,
+			"Song": "You Shook Me All Night Long",
+			"Artist": "AC/DC",
+			"Release Year": 1980,
+			"Album": "Back In Black",
+			"Genre": "Hard Rock",
+			"Image": "backinblack.jpg"
+
+		},
+		{
+			"Number": 4,
+			"Song": "Whole Lotta Rosie",
+			"Artist": "AC/DC",
+			"Release Year": 1977,
+			"Album": "Let There Be Rock",
+			"Genre": "Hard Rock",
+			"Image": "letthereberock.jpg"
+
+		},
+		{
+			"Number": 5,
+			"Song": "Highway To Hell",
+			"Artist": "AC/DC",
+			"Release Year": 1979,
+			"Album": "Highway To Hell",
+			"Genre": "Hard Rock",
+			"Image": "highwaytohell.jpg"
+
+		},
+		{
+			"Number": 6,
+			"Song": "Hells Bells",
+			"Artist": "AC/DC",
+			"Release Year": 1980,
+			"Album": "Back In Black",
+			"Genre": "Hard Rock",
+			"Image": "backinblack.jpg"
+
+		},
+		{
+			"Number": 7,
+			"Song": "It's A Long Way To The Top",
+			"Artist": "AC/DC",
+			"Release Year": 1976,
+			"Album": "High Voltage",
+			"Genre": "Hard Rock",
+			"Image": "highvoltage.jpg"
+
+		},
+		{
+			"Number": 8,
+			"Song": "Rock and Roll Ain't Noise Pollution",
+			"Artist": "AC/DC",
+			"Release Year": 1980,
+			"Album": "Back In Black",
+			"Genre": "Hard Rock",
+			"Image": "backinblack.jpg"
+
+		},
+		{
+			"Number": 9,
+			"Song": "Shoot To Thrill",
+			"Artist": "AC/DC",
+			"Release Year": 1980,
+			"Album": "Back In Black",
+			"Genre": "Hard Rock",
+			"Image": "backinblack.jpg"
+
+		},
+		{
+			"Number": 10,
+			"Song": "Let There Be Rock",
+			"Artist": "AC/DC",
+			"Release Year": 1977,
+			"Album": "Let There Be Rock",
+			"Genre": "Hard Rock",
+			"Image": "letthereberock.jpg"
+
+		}
+	]
+}
