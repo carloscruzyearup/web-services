@@ -11,7 +11,7 @@
   }
 
   .pic{
-	position: absolute;
+	position: relative;
 	right: 10px;
 	top: 10px;
   }
