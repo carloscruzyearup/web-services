@@ -11,13 +11,13 @@
   }
 
   .pic{
-	position: relative;
+	position: absolute;
 	right: 10px;
 	top: 10px;
   }
 
   .pic img{ /*ensures thumbnail width is at 50px*/
-	max-width: 50px;
+	max-width: 75px;
   }
 
 
