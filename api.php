@@ -33,6 +33,7 @@ if(isset($_REQUEST['cat']))
 			break;
 		case "song":
 			include('data/acdc-topsongs.json');
+			break;
 		default:
 			include('data/topalbums.json'); //default orders by year
 	}
