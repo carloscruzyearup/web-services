@@ -28,8 +28,8 @@ if(isset($_REQUEST['cat']))
 {//check to be sure data has been transmitted via GET or POST
 	switch($_REQUEST['cat'])
 	{//determine contents of 'cat'
-		case "box":
-			include('data/bond-box-office.js'); //"box" orders by box office results
+		case "album":
+			include('data/topalbums.json'); //"box" orders by box office results
 			break;
 		default:
 			include('data/bond-year.js'); //default orders by year
