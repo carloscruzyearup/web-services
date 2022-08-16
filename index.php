@@ -2,19 +2,22 @@
 <head>
 <title>Top Music Lists Web Service Demo</title>
 <style>
-	body {font-family:georgia;}
+	body {font-family:sans-serif;}
 
   .item{
-	border:2px solid aquamarine;
-	padding: 5px;
-	margin-bottom: 5px;
+	border:2px solid black;
+  border-radius: 10px;
+	padding: 15px;
+	margin-bottom: 10px;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: flex-start;
+  gap: 15px;
+  align-items: center;
   }
 
   .pic img{ /*ensures thumbnail width is at 50px*/
-	max-width: 75px;
+	width: 100px;
   }
 
 
@@ -28,6 +31,7 @@ function itemTemplate(item){
 
 	let data = `
 		<div class="item">
+      <div class="pic"><img src="thumbnails/${item.Image}"/></div>
 			<div>
 				<b>Number</b>: ${item.Number}<br/>
 	`;
@@ -41,7 +45,6 @@ function itemTemplate(item){
 				<b>Artist</b>: ${item.Artist}<br/>
 				<b>Genre</b>: ${item.Genre}<br/>
 			</div>
-			<div class="pic"><img src="thumbnails/${item.Image}"/></div>
 		</div> 
 	`; //put HTML inside of the backticks, and injects the data with the string
 
