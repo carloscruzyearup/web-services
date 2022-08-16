@@ -1,10 +1,10 @@
 <html>
 <head>
-<title>RPDR Web Service Demo</title>
+<title>Top Music Lists Web Service Demo</title>
 <style>
 	body {font-family:georgia;}
 
-  .season{
+  .item{
 	border:2px solid aquamarine;
 	padding: 5px;
 	margin-bottom: 5px;
@@ -34,8 +34,8 @@ function itemTemplate(item){
 			<b>Number</b>: ${item.Number}<br/>
 	`;
 
-	if(item.Song != null)
-		data +=	`<b>Song</b>: ${item.Song}<br/>`;
+	data +=	`<b>Song</b>: ${item.Song}<br/>`;
+	//if(item.Song != null)
 
 	data += `
 			<b>Year</b>: ${item.Year}<br/>
@@ -77,6 +77,7 @@ $(document).ready(function() {
 			//jQuery to pass this template data into id of films in the HTML 
 			$.each(data.data, function(i, item) {
 				let myData = itemTemplate(item);
+				console.log(myData);
 				$("<div></div>").html(myData).appendTo("#output");
 			}); 
 
