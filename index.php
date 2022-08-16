@@ -32,7 +32,7 @@
 				<div class="item">
 		      <div class="pic"><img src="thumbnails/${item.Image}"/></div>
 					<div>
-						<b>Number</b>: ${item.Number}<br/>
+						<b>Rating</b>: ${item.Rating}<br/>
 			`;
 		
 			if(item.Song != null)

@@ -3,7 +3,7 @@
 
 	"data": [
 		{
-			"Number": 1,
+			"Rating": 1,
 			"Year": 1967,
 			"Album": "Sgt. Pepper's Lonely Hearts Club Band",
 			"Artist": "The Beatles",
@@ -12,7 +12,7 @@
 			"Image": "sgtpepper.jpg"
 		},
 		{
-			"Number": 2,
+			"Rating": 2,
 			"Year": 1966,
 			"Album": "Pet Sounds",
 			"Artist": "The Beach Boys",
@@ -22,7 +22,7 @@
 
 		},
 		{
-			"Number": 3,
+			"Rating": 3,
 			"Year": 1966,
 			"Album": "Revolver",
 			"Artist": "The Beatles",
@@ -32,7 +32,7 @@
 
 		},
 		{
-			"Number": 4,
+			"Rating": 4,
 			"Year": 1965,
 			"Album": "Highway 61 Revisited",
 			"Artist": "Bob Dylan",
@@ -42,7 +42,7 @@
 
 		},
 		{
-			"Number": 5,
+			"Rating": 5,
 			"Year": 1965,
 			"Album": "Rubber Soul",
 			"Artist": "The Beatles",
@@ -52,7 +52,7 @@
 
 		},
 		{
-			"Number": 6,
+			"Rating": 6,
 			"Year": 1971,
 			"Album": "What's Going On",
 			"Artist": "Marvin Gaye",
@@ -62,7 +62,7 @@
 
 		},
 		{
-			"Number": 7,
+			"Rating": 7,
 			"Year": 1972,
 			"Album": "Exile on Main St.",
 			"Artist": "The Rolling Stones",
@@ -72,7 +72,7 @@
 
 		},
 		{
-			"Number": 8,
+			"Rating": 8,
 			"Year": 1979,
 			"Album": "London Calling",
 			"Artist": "The Clash",
@@ -82,7 +82,7 @@
 
 		},
 		{
-			"Number": 9,
+			"Rating": 9,
 			"Year": 1966,
 			"Album": "Blonde on Blonde",
 			"Artist": "Bob Dylan",
@@ -92,7 +92,7 @@
 
 		},
 		{
-			"Number": 10,
+			"Rating": 10,
 			"Year": 1968,
 			"Album": "The Beatles (\"The White Album\")",
 			"Artist": "The Beatles",
