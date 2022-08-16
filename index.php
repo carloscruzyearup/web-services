@@ -99,7 +99,7 @@
 		<a href="album" class="category">Top Albums</a><br />
 		<a href="song" class="category">Top AC/DC songs</a>
 
-		<h3 id="title">Title Will Go Here</h3>
-		<div id="output">Results go here</div>
+		<h3 id="title">Click one of the links above to view the ranked lists!</h3>
+		<div id="output"><em style="color: gray;">Results</em></div>
 	</body>
 </html>
