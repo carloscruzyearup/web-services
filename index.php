@@ -34,8 +34,8 @@ function itemTemplate(item){
 			<b>Number</b>: ${item.Number}<br/>
 	`;
 
-	data +=	`<b>Song</b>: ${item.Song}<br/>`;
-	//if(item.Song != null)
+	if(item.Song != null)
+		data +=	`<b>Song</b>: ${item.Song}<br/>`;
 
 	data += `
 			<b>Year</b>: ${item.Year}<br/>
