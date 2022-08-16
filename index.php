@@ -6,10 +6,8 @@
 			body {font-family:sans-serif;}
 
 			.item {
-				border:2px solid black;
-				border-radius: 10px;
-				padding: 15px;
-				margin-bottom: 10px;
+				border-top: 2px dotted gray;
+				padding: 30px;
 				display: flex;
 				flex-flow: row wrap;
 				justify-content: flex-start;
@@ -18,7 +16,7 @@
 			}
 		
 			.pic img { /*ensures thumbnail width is at 50px*/
-				width: 100px;
+				max-width: 150px;
 			}
 		</style>
 
