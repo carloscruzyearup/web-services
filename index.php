@@ -8,10 +8,12 @@
 	border:2px solid aquamarine;
 	padding: 5px;
 	margin-bottom: 5px;
+	display: flex;
+	flex-flow: row wrap;
   }
 
   .pic{
-	position: absolute;
+	position: relative;
 	right: 10px;
 	top: 10px;
   }
@@ -31,17 +33,19 @@ function itemTemplate(item){
 
 	let data = `
 		<div class="item">
-			<b>Number</b>: ${item.Number}<br/>
+			<div>
+				<b>Number</b>: ${item.Number}<br/>
 	`;
 
 	if(item.Song != null)
 		data +=	`<b>Song</b>: ${item.Song}<br/>`;
 
 	data += `
-			<b>Year</b>: ${item.Year}<br/>
-			<b>Album</b>: ${item.Album}<br/>
-			<b>Artist</b>: ${item.Artist}<br/>
-			<b>Genre</b>: ${item.Genre}<br/>
+				<b>Year</b>: ${item.Year}<br/>
+				<b>Album</b>: ${item.Album}<br/>
+				<b>Artist</b>: ${item.Artist}<br/>
+				<b>Genre</b>: ${item.Genre}<br/>
+			</div>
 			<div class="pic"><img src="thumbnails/${item.Image}"/></div>
 		</div> 
 	`; //put HTML inside of the backticks, and injects the data with the string
